@@ -1,0 +1,11 @@
+{
+  "name": "monoserver",
+  "version": "0.0.1",
+  "description": "server for a monorepo prove of concept",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
