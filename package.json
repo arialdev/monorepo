@@ -1,0 +1,26 @@
+{
+  "name": "monorepo",
+  "version": "0.0.1",
+  "description": "monorepo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arialdev/monorepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arialdev/monorepo/issues"
+  },
+  "homepage": "https://github.com/arialdev/monorepo#readme",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.4.6"
+  }
+}
