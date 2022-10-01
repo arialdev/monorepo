@@ -75,9 +75,6 @@
               "browserTarget": "monoclient:build:development"
             }
           },
-          "options": {
-            "proxyConfig": "src/proxy.conf.json"
-          },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
@@ -102,12 +99,15 @@
               "src/styles.sass"
             ],
             "scripts": []
+          },
+          "configurations": {
+            "ci": {
+              "karmaConfig": "karma.ci.conf.js",
+              "codeCoverage": true
+            }
           }
         }
       }
     }
-  },
-  "cli": {
-    "analytics": false
   }
 }

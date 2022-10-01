@@ -1,5 +1,0 @@
-[32mmonoserver:build[0m: cache hit, replaying output [2mbd5fc919b1760b2a[0m
-[32mmonoserver:build: [0m
-[32mmonoserver:build: [0m> monoserver@0.0.1 build
-[32mmonoserver:build: [0m> mkdir ./dist && cp server.js ./dist/server.js && exit 0
-[32mmonoserver:build: [0m

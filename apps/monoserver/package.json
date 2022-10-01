@@ -4,9 +4,9 @@
   "description": "server for a monorepo prove of concept",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",
+    "start": "nodemon server.js",
     "test": "mocha",
-    "build": "mkdir ./dist && cp server.js ./dist/server.js && exit 0"
+    "build": "exit 0"
   },
   "author": "",
   "license": "ISC",
